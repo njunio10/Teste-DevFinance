@@ -31,7 +31,7 @@ describe('Transações', () => {
 
 })
 
-
+//funcao
 function criarTransacao(descricao, valor) {
     cy.contains("Nova Transação").click()
     cy.get('#description').type(descricao)
